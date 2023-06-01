@@ -7,14 +7,23 @@
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radityputra/post-restapi.git"
+  },
   "keywords": [
     "nodejs",
     "express.js",
     "mongodb"
   ],
-  "author": "Ilham IH",
+  "author": "Raditya Putra",
   "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
